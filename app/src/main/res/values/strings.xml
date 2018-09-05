@@ -5,4 +5,7 @@
     <string name="albums">Albums</string>
     <string name="artist">Artists</string>
     <string name="genres">Genres</string>
+    <string name="thumbnail_description">Art</string>
+    <string name="playIcon_description">Play</string>
+    <string name="pauseIcon_description">Pause</string>
 </resources>
