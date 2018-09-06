@@ -24,13 +24,15 @@
         <activity
             android:name=".ArtistActivity"
             android:label="Artists"
-           />
+            android:theme="@style/songTheme"/>
         <activity
             android:name=".GenreActivity"
-            android:label="Genres" />
+            android:label="Genres"
+            android:theme="@style/songTheme"/>
         <activity
             android:name=".AlbumActivity"
-            android:label="Albums" />
+            android:label="Albums"
+            android:theme="@style/songTheme"/>
         <activity
             android:name=".CreatePlaylistActivity"
             android:label="Create Playlist" />
