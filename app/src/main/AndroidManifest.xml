@@ -21,16 +21,22 @@
             android:name=".SongsActivity"
             android:label="Songs"
             android:theme="@style/songTheme" />
-        <activity android:name=".ArtistActivity"
-            android:label="Artists"/>
-        <activity android:name=".GenreActivity"
-            android:label="Genres"/>
-        <activity android:name=".AlbumActivity"
-            android:label="Albums"/>
-        <activity android:name=".CreatePlaylistActivity"
-            android:label="Create Playlist"/>
-        <activity android:name=".NowPlayingActivity"
-            android:label="Now Playing"/>
+        <activity
+            android:name=".ArtistActivity"
+            android:label="Artists" />
+        <activity
+            android:name=".GenreActivity"
+            android:label="Genres" />
+        <activity
+            android:name=".AlbumActivity"
+            android:label="Albums" />
+        <activity
+            android:name=".CreatePlaylistActivity"
+            android:label="Create Playlist" />
+        <activity
+            android:name=".NowPlayingActivity"
+            android:label="Now Playing" />
+        <activity android:name=".GenreAndArtistTemplateActivity"/>
     </application>
 
 </manifest>
