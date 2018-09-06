@@ -19,7 +19,6 @@
 
         <!--This line of code makes my status bar transrent when -->
         <item name="android:statusBarColor">@android:color/transparent</item>
-        <item name = "android:windowTranslucentStatus">true</item>
     </style>
 
 </resources>

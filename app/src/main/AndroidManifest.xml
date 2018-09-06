@@ -23,7 +23,8 @@
             android:theme="@style/songTheme" />
         <activity
             android:name=".ArtistActivity"
-            android:label="Artists" />
+            android:label="Artists"
+           />
         <activity
             android:name=".GenreActivity"
             android:label="Genres" />
@@ -36,6 +37,7 @@
         <activity
             android:name=".NowPlayingActivity"
             android:label="Now Playing" />
+
         <activity android:name=".GenreAndArtistTemplateActivity"/>
     </application>
 
