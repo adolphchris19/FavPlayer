@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     android:id="@+id/drawer_layout"
+    android:background="#cfcfcf"
     tools:context=".SongsActivity"
     tools:openDrawer="start">
 

@@ -9,7 +9,7 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    CardView songs;
+    CardView songs, artists, genres, albums;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         songs = findViewById(R.id.songs);
-
         songs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -25,5 +24,33 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        artists = findViewById(R.id.artists);
+        artists.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, ArtistActivity.class);
+                startActivity(i);
+            }
+        });
+
+        genres = findViewById(R.id.genres);
+        genres.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, GenreActivity.class);
+                startActivity(i);
+            }
+        });
+
+        albums = findViewById(R.id.albums);
+        albums.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, AlbumActivity.class);
+                startActivity(i);
+            }
+        });
+
     }
 }
