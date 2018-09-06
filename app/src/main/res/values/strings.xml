@@ -8,4 +8,7 @@
     <string name="thumbnail_description">Art</string>
     <string name="playIcon_description">Play</string>
     <string name="pauseIcon_description">Pause</string>
+    <string name="navigation_drawer_open">Open navigation Drawer</string>
+    <string name="navigation_drawer_close">Close navigation Drawer </string>
+ 
 </resources>

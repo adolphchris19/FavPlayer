@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_songs"
+            android:icon="@drawable/music_icon"
+            android:title="@string/songs" />
+
+        <item
+            android:id="@+id/nav_albums"
+            android:icon="@drawable/album_icon"
+            android:title="@string/albums" />
+
+        <item
+            android:id="@+id/nav_artist"
+            android:icon="@drawable/artist_icon"
+            android:title="@string/artist" />
+
+        <item
+            android:id="@+id/nav_genre"
+            android:icon="@drawable/genre_icon"
+            android:title="@string/genres" />
+
+        <item
+            android:id="@+id/nav_create_playlist"
+            android:icon="@drawable/create_playlist"
+            android:title="@string/playlist" />
+    </group>
+    <item android:title="communicate">
+        <menu>
+            <item
+
+                android:icon="@drawable/rate_icon"
+                android:title="Rate Us" />
+
+            <item
+
+                android:icon="@drawable/share_icon"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>
