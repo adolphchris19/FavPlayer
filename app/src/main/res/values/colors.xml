@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#b71c1c</color>
     <color name="colorAccent">#FF4081</color>
     <color name="textColor">#ffffff</color>
+    <color name="albumBackgroundColor">#cfcfcf</color>
 </resources>
