@@ -12,5 +12,7 @@
     <string name="navigation_drawer_close">Close navigation Drawer </string>
     <string name="status">Playing</string>
     <string name="nowPlaying">Now Playing</string>
+    <string name="info">So you got to this activity because you either Clicked on a List in the
+        GenreActivity or ArtistActivity, or the AlbumActivity</string>
 
 </resources>
