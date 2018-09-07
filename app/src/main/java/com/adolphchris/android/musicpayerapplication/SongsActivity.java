@@ -12,13 +12,16 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.RelativeLayout;
 
 import java.util.ArrayList;
 
 public class SongsActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
     private DrawerLayout drawer;
+    LinearLayout musicView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,6 +61,18 @@ public class SongsActivity extends AppCompatActivity implements NavigationView.O
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 MusicTemp music = songs.get(position);
+               // Intent i = new Intent(SongsActivity.this, NowPlayingActivity.class);
+               // startActivity(i);
+
+                LinearLayout musicView = (LinearLayout) findViewById(R.id.linearLayout);
+                musicView.setVisibility(View.VISIBLE);
+            }
+        });
+
+       musicView = findViewById(R.id.linearLayout);
+        musicView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
                 Intent i = new Intent(SongsActivity.this, NowPlayingActivity.class);
                 startActivity(i);
             }
