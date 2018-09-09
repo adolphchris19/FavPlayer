@@ -34,13 +34,15 @@
             android:label="Albums"
             android:theme="@style/songTheme" />
         <activity
-            android:name=".CreatePlaylistActivity"
-            android:label="Create Playlist" />
-        <activity
             android:name=".NowPlayingActivity"
             android:label="Now Playing" />
         <activity android:name=".GenreAndArtistTemplateActivity" />
-        <activity android:name=".GenreArtistAlbumActivity"></activity>
+        <activity android:name=".CurrentAlbumActivity"
+            android:label="@string/albums"/>
+        <activity android:name=".CurrentGenreActivity"
+            android:label="@string/genres"/>
+        <activity android:name=".CurrentArtistActivity"
+            android:label="@string/artist"/>
     </application>
 
 </manifest>

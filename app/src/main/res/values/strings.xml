@@ -4,10 +4,17 @@
     <string name="songs">Songs</string>
     <string name="albums">Albums</string>
     <string name="artist">Artists</string>
+    <string name="title">Music Player</string>
     <string name="genres">Genres</string>
+    <string name="demo">Thanks To God</string>
+    <string name="demoName">Chris</string>
+    <string name="artistActivity">Artist Activity</string>
+    <string name="albumActivity">Album Activity</string>
+    <string name="genreActivity">Genre Activity</string>
     <string name="thumbnail_description">Art</string>
     <string name="playIcon_description">Play</string>
     <string name="pauseIcon_description">Pause</string>
+    <string name="nameOfPlayer">Fav Player</string>
     <string name="navigation_drawer_open">Open navigation Drawer</string>
     <string name="navigation_drawer_close">Close navigation Drawer </string>
     <string name="status">Playing</string>

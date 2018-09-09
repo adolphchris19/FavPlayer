@@ -58,7 +58,7 @@ public class ArtistActivity extends AppCompatActivity implements NavigationView.
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 MusicTemp music = songs.get(position);
-                Intent i = new Intent(ArtistActivity.this, GenreArtistAlbumActivity.class);
+                Intent i = new Intent(ArtistActivity.this, CurrentArtistActivity.class);
                 startActivity(i);
             }
         });

@@ -5,4 +5,5 @@
     <color name="colorAccent">#FF4081</color>
     <color name="textColor">#ffffff</color>
     <color name="albumBackgroundColor">#cfcfcf</color>
+    <color name="colorBlack">#000000</color>
 </resources>

@@ -13,7 +13,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.Switch;
 
 import java.util.ArrayList;
 
@@ -53,7 +52,7 @@ public class AlbumActivity extends AppCompatActivity implements NavigationView.O
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 MusicTemp music = songs.get(position);
-                Intent i = new Intent(AlbumActivity.this, GenreArtistAlbumActivity.class);
+                Intent i = new Intent(AlbumActivity.this, CurrentAlbumActivity.class);
                 startActivity(i);
             }
         });

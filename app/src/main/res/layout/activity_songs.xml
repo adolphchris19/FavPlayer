@@ -5,7 +5,7 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#cfcfcf"
+    android:background="@color/albumBackgroundColor"
     android:fitsSystemWindows="true"
     tools:context=".SongsActivity">
     <!--tools:openDrawer="start">-->
@@ -59,10 +59,10 @@
                 android:gravity="center_horizontal"
                 android:textSize="18sp"
                 android:singleLine="true"
-                android:text="Playing"
+                android:text="@string/status"
                 android:textAllCaps="true"
                 android:textStyle="bold"
-                android:textColor="#000000" />
+                android:textColor="@color/colorBlack" />
 
             <SeekBar
                 android:id="@+id/seekBar"

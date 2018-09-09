@@ -52,7 +52,7 @@ public class GenreActivity extends AppCompatActivity implements NavigationView.O
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 MusicTemp music = songs.get(position);
-                Intent i = new Intent(GenreActivity.this, GenreArtistAlbumActivity.class);
+                Intent i = new Intent(GenreActivity.this, CurrentGenreActivity.class);
                 startActivity(i);
             }
         });

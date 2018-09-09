@@ -6,6 +6,7 @@
     android:layout_height="176dp"
     android:gravity="bottom"
     android:paddingStart="16dp"
+    android:paddingEnd="0dp"
     android:background="@color/colorAccent"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
@@ -21,7 +22,7 @@
         android:paddingTop="4dp"
         android:textSize="30sp"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:text="FavPlayer"/>
+        android:text="@string/nameOfPlayer"/>
 
     <TextView
         android:layout_width="wrap_content"

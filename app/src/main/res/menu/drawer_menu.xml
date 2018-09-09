@@ -23,10 +23,6 @@
             android:icon="@drawable/genre_icon"
             android:title="@string/genres" />
 
-        <item
-            android:id="@+id/nav_create_playlist"
-            android:icon="@drawable/create_playlist"
-            android:title="@string/playlist" />
     </group>
     <item android:title="communicate">
         <menu>
