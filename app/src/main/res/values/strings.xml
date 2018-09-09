@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MusicPayerApplication</string>
+    <string name="app_name">Fav Player</string>
     <string name="playlist">Create Playlist</string>
     <string name="songs">Songs</string>
     <string name="albums">Albums</string>
